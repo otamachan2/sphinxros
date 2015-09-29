@@ -8,6 +8,7 @@ blacklists=(pepper naoqi nao romeo ipa-canopen shadow-robot)
 sudo apt-get install -f -y $(apt-cache -q search ros-indigo | cut -f 1 -d " " | grep -Ev $(IFS=\|; echo "${blacklists[*]}"))
 sudo pip install -r requirements.txt
 sudo pip install git+https://github.com/otamachan2/sphinxcontrib-ros.git
+mkdir doc/indigo/packages
 ./scripts/generator.py indigo
 mkdir -p _build
 cd doc
