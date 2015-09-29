@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd $(dirname %0)
 ls -al
 sudo apt-get install ros-indigo-*
 sudo pip install requirements.txt
