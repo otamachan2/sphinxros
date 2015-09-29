@@ -1,4 +1,5 @@
 #!/bin/bash
+set -xv
 cd $(dirname $0)
 ls -al
 sudo apt-get update
