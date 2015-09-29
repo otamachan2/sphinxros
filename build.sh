@@ -2,6 +2,8 @@
 
 ls -al
 sudo apt-get install ros-indigo-*
+sudo pip install requirements.txt
+sudo pip install git+https://github.com/otamachan2/sphinxcontrib-ros.git
 ./scripts/generator.py indigo
 mkdir -p _build
 cd doc
