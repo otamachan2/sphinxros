@@ -17,7 +17,7 @@ install:
 script:
   # only to download debs
   - docker run -v `pwd`:/workspace ros:indigo-ros-core /workspace/get_debs.sh
-  - for deb in $(find debs -iname '*.deb' | sort); do echo $deb; sudo dpkg --force-all -i $deb > /dev/null 2&>1; done
+  - for deb in $(find debs -iname '*.deb' | sort); do echo $deb; sudo dpkg --force-all -i $deb > /dev/null 2&>1; done && true
   # generate docs
   - ./scripts/generator.py $ROSDISTRO doc/packages
   - echo Building $(ls -1 doc/packages | wc -l) packages
@@ -29,5 +29,5 @@ script:
   - git -C _build config user.name "Travis CI"
   - git -C _build config user.email "otamachan@gmail.com"
   - git -C _build add --all indigo
-  - git -C _build commit -m "Deploy to GitHub Pages"
+  - git -C _build commit --quiet -m "Deploy to GitHub Pages"
   - git -C _build push --force --quiet "https://${GH_TOKEN}@${REPO}" > /dev/null 2>&1
