@@ -1,5 +1,4 @@
 #!/bin/bash
-set -xv
 cd $(dirname $0)
 ls -al
 sudo apt-get update
@@ -11,7 +10,7 @@ mkdir debs
 pushd debs
 apt-get download $packages
 for deb in `find . -iname '*.deb'`; do
-    sudo dpkg --force-all -i $deb
+    sudo dpkg --force-all -i $deb > /dev/null 2&>1
 done
 popd
 sudo pip install -r requirements.txt
