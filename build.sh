@@ -5,13 +5,13 @@ cd $(dirname $0)
 # install
 mkdir -p debs doc/packages
 sudo apt-get update -q
-sudo apt-get install -f -y -q python-pip
+sudo apt-get install -f -y -q git python python-pip
 sudo pip install -r requirements.txt
 sudo pip install git+https://github.com/otamachan2/sphinxcontrib-ros.git
 packages=$(apt-cache -q search ros-indigo | cut -f 1 -d " ")
 #packages=$(apt-cache -q search ros-indigo | head -n 2 | cut -f 1 -d " ")
 pushd debs; apt-get download $packages; popd
-for deb in `find debs -iname '*.deb'`; do
+for deb in $(find debs -iname 'debs/*.deb' | sort); do
     echo $deb
     sudo dpkg --force-all -i $deb > /dev/null 2&>1
 done

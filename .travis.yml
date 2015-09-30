@@ -5,7 +5,7 @@ env:
 services:
   - docker
 before_install:
-  - docker pull ros:indigo-robot
+  - docker pull ubuntu:14.04
 script:
   - echo $GH_TOKEN > .GH_TOKEN
   - docker run -v `pwd`:/workspace ros:indigo-robot /workspace/build.sh
