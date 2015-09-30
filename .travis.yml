@@ -24,7 +24,7 @@ script:
   - git clone "https://$REPO" _build
   - git -C _build checkout gh-pages
   - rm _build/$ROSDISTRO -rf
-  - sphinx-build -a -E -b html doc _build/$ROSDISTRO
+  - sphinx-build -a -E -b html -d /tmp doc _build/$ROSDISTRO
   # push
   - git -C _build config user.name "Travis CI"
   - git -C _build config user.email "otamachan@gmail.com"
