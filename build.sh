@@ -17,6 +17,7 @@ for deb in `find debs -iname '*.deb'`; do
 done
 # generate docs
 ./scripts/generator.py $ROSDISTRO doc/packages
+echo Building $(ls -1 doc/packages | wc -l) packages
 git clone "https://$REPO" _build
 git -C _build checkout gh-pages
 rm _build/$ROSDISTRO -rf
