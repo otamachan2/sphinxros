@@ -1,16 +1,14 @@
 #!/bin/bash
-set -xv
 cd $(dirname $0)
 ls -al
 sudo apt-get update -q
 sudo apt-get install -f -y -q python-pip
-blacklists=(pepper naoqi nao romeo ipa-canopen shadow-robot)
-packages=$(apt-cache -q search ros-indigo | cut -f 1 -d " " | grep -Ev $(IFS=\|; echo "${blacklists[*]}"))
 packages=$(apt-cache -q search ros-indigo | head -n 2 | cut -f 1 -d " ")
 mkdir debs
 pushd debs
 apt-get download $packages
 for deb in `find . -iname '*.deb'`; do
+    @echo $deb
     sudo dpkg --force-all -i $deb > /dev/null 2&>1
 done
 popd
