@@ -1,7 +1,11 @@
 sudo: required
+env:
+  global:
+    - secure: "U0yA2O4PieVvHKbuUuSon3sZicokwzWenKT6/kWQu+FdLyzGwgdWxxb5F7CkIesz1s0cwE6Y2awMon/h73poV+6Ae5drWwAokXxe2AEKQJOiYEJhccMWkavvU3tZeHoagZLe/lt366D1RyGFZ/KL27vO2JjEdCvj0uKciJ6KA6PJy+b3q2WFQfe2IiqPZTXAoY4tiU3880EBaikbf6t//sz3bzudaEIW8UC3NYoaM5jOT8O2voeZLfgsqxojkGGU0UJIKHwlOW7IxNm7sVvAx+HVmYawBfDGoIePNHjssylPlWMFnFWqC/GrdlyKUd+EsXLSnoUbO25QxJEC2rzookJH1gS7Aw7iofcgu2V0tYqFr+lVIXkEi8zJTTeLAhAuZxBp3ugzxFpByltJbUhZ2TtAGecVJXOi1IBNwhtIjQLAgRWqkogRHuYZMjiEV0p0ZwuNayjG7DbXB8Kvbsnk5rw6kroht2eBr30Yt/QhGrBD/Jvd6B3wJp58reN0xSEZni94F4aDDrspbl52lGWcpgf5acflOgV3JZy0zgQyoACHizHD0+XpSgGsE+iL1gXTpuP0Ab9cWi7XttY5oexRFb8xOrqqXkixY0t8/hXw+q6JaiqxKA9tlk4+RB+2DdtTJFY510yT0kw+PJZbGZ9JKGwphFbyvQtbriVDggl7Z48="
 services:
   - docker
 before_install:
   - docker pull ros:indigo-robot
 script:
+  - echo $GH_
   - docker run -v `pwd`:/workspace ros:indigo-robot /workspace/build.sh

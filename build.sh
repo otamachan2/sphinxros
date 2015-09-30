@@ -25,7 +25,7 @@ git -C _build config user.name "Travis CI"
 git -C _build config user.email "otamachan@gmail.com"
 git -C _build add indigo
 git -C _build commit -m "Deploy to GitHub Pages"
-git -C _build push --force --quiet "https://${GH_TOKEN}@${REPO}" > /dev/null 2>&1
+git -C _build push --force --quiet "https://$(cat .GH_TOKEN)@${REPO}" > /dev/null 2>&1
 
 
 
