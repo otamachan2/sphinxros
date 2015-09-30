@@ -4,6 +4,7 @@ from __future__ import print_function
 import sys
 import os
 import glob
+import argparse
 import catkin_pkg.packages
 
 PACKAGE_CONTENT = r"""{package}
@@ -36,17 +37,15 @@ TYPE_CONTENT = r"""
    :raw: tail
 """
 
-def main(argv=sys.argv):
-    if len(argv) < 2:
-        print("./generate.py [indigo|jade]")
-        sys.exit(1)
-    release = argv[1]
-    ros_base_path = '/opt/ros/{0}/share'.format(release)
+def main(argv=sys.argv[1:]):
+    parser = argparse.ArgumentParser(description="generator")
+    parser.add_argument('rosdisto')
+    parser.add_argument('dest')
+    args = parser.parse_args(argv)
+    ros_base_path = '/opt/ros/{0}/share'.format(args.rosdisto)
     packages = catkin_pkg.packages.find_packages(ros_base_path)
-    out_path = os.path.join(os.path.dirname(__file__), '..', 'doc', release)
-    out_package_path = os.path.join(out_path, 'packages')
     for package_path, package in packages.items():
-        rst_file_path = os.path.join(out_package_path, package.name + '.rst')
+        rst_file_path = os.path.join(args.dest, package.name + '.rst')
         if not os.path.exists(rst_file_path):
             with open(rst_file_path, 'w') as fout:
                 fout.write(PACKAGE_CONTENT.format(package=package.name,
