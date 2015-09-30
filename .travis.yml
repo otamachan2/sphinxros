@@ -25,7 +25,7 @@ install:
 script:
   # only to download debs
   - echo Building $(ls -1 doc/packages | wc -l) packages
-  - sphinx-build -a -E -b html -d /tmp doc _build/$ROSDISTRO
+  - sphinx-build -v -j 2 -a -E -b html -d /tmp doc _build/$ROSDISTRO
   # push
   - git -C _build config user.name "Travis CI"
   - git -C _build config user.email "otamachan@gmail.com"
