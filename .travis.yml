@@ -15,7 +15,7 @@ before_install:
 install:
   - pip install -r requirements.txt
   - pip install git+https://github.com/otamachan2/sphinxcontrib-ros.git
-  - for deb in $(find debs -iname '*.deb' | sort); do echo $deb; sudo dpkg --force-all -i $deb > /dev/null 2&>1; done && true
+  - for deb in $(find debs -iname '*.deb' | sort); do echo $deb; sudo dpkg --force-all -i $deb > /dev/null 2&>1; done; true
   # generate docs
   - ./scripts/generator.py $ROSDISTRO doc/packages
   - git clone "https://$REPO" _build
