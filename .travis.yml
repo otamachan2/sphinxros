@@ -28,7 +28,7 @@ install:
   - git -C _build init
 script:
   - echo Building $(ls -1 doc/packages | wc -l) packages
-  - sphinx-build -v -j 2 -a -E -b html -d /tmp doc _build/$ROSDISTRO
+  - sphinx-build -j 2 -a -E -b html -d /tmp doc _build/$ROSDISTRO
 after_success:
   # push
   - git -C _build config user.name "Travis CI"
