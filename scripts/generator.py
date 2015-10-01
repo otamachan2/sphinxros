@@ -15,6 +15,7 @@ PACKAGE_CONTENT = r"""{package}
 
 Summary
 *******
+
 .. ros:autopackage:: {package}
 """
 

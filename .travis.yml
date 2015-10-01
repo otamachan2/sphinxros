@@ -10,26 +10,26 @@ env:
   global:
     - REPO: github.com/otamachan2/sphinxros.git
     - ROSDISTRO: ${TRAVIS_BRANCH}
+    - DEBS_PATH: debs
     - secure: "ChWhswn18zQ/8RTZXGDUMXj8E66vb8cQbXbbgvOKOAVr9CDHSjipRPtt36azohaWRnwJ8dcZyuWH1RmiQWDEUG9p1oh4kDZUGJYXQpTcWDbnqEzl11A8oGGqlThVC/LUGslLjN9LzaiWHLSTjZL1hB/g7S8QNhcY4DrA5g2klgsDN9/1wvzXH80W+mGv3Vmj7Cxt819BmYQ7c4VCWLzJU2GO1eR2wNqjxDn4cX9JY3XzkvKqSLFNy66OJxeVN8L8jw/GyytsYsTqe7j1mxeqiXhwoJXWilCUi3KnutyqrCwbYrabm0MiduVDlWc+uWPsLIrvlnYgVGaW3fPrqj1ese+fhrCgXHtqAvGlAIIG0HwYD8TqBmo8JNUT5OCiyu+MiTIIVYqyr/ms5AXavJYl+qmY3Z35FXiOGuLlKeMWnOj+KyUc9DHyZh9CaQR96Go7Sq1MmAktwWpS1DTqZEOHusN9rb4u8clXQdmbcTr7MQgct0n9LSxzBXyiua1vNXGMAkMtGP+a6BXM+22VTIIfWWHrv8Ze/lq7nMOkOrewVU0Qfa5Gg+Nl2y6ZhodDkSGYBiuMPWJUAGh1mKdr7HN/LBjxwVqSLQRW6zZ94FNPP7HP5XXPimFhxtdoIZ7mTfBXqunYzGqyOiojdTvPBSGB4rO4oK7rxTgZkYinKcLkst8="
 services:
   - docker
 before_install:
-  - mkdir -p doc/packages debs
-  - docker run -v `pwd`:/workspace -e "ROSDISTRO=${ROSDISTRO}" ros:${ROSDISTRO}-ros-core /workspace/get_debs.sh
+  - mkdir -p doc/packages ${DEBS_PATH}
+  - docker run -v `pwd`:/workspace -e "ROSDISTRO=${ROSDISTRO}" ros:${ROSDISTRO}-ros-core /workspace/scripts/get_debs.sh ${DEBS_PATH}
 install:
   - pip install -r requirements.txt
   - pip install git+https://github.com/otamachan2/sphinxcontrib-ros.git
-  - for deb in $(find debs -iname '*.deb' | sort); do echo $deb; sudo dpkg --force-all -i $deb > /dev/null 2&>1; done; true
+  - for deb in $(find ${DEBS_PATH} -iname '*.deb' | sort); do echo $deb; sudo dpkg --force-all -i $deb > /dev/null 2&>1; done; true
   # generate docs
   - ./scripts/generator.py $ROSDISTRO doc/packages
-  - git clone "https://$REPO" _build
-  - git -C _build checkout gh-pages
+  - git clone "https://$REPO" _build --branch gh-pages
   - rm _build/.git _build/$ROSDISTRO -rf
   - git -C _build init
 script:
-  # only to download debs
   - echo Building $(ls -1 doc/packages | wc -l) packages
   - sphinx-build -v -j 2 -a -E -b html -d /tmp doc _build/$ROSDISTRO
+after_success:
   # push
   - git -C _build config user.name "Travis CI"
   - git -C _build config user.email "otamachan@gmail.com"
