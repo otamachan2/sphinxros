@@ -20,7 +20,8 @@ install:
   - ./scripts/generator.py $ROSDISTRO doc/packages
   - git clone "https://$REPO" _build
   - git -C _build checkout gh-pages
-  - rm _build/$ROSDISTRO -rf
+  - rm _build/.git _build/$ROSDISTRO -rf
+  - git -C _build init
 script:
   # only to download debs
   - echo Building $(ls -1 doc/packages | wc -l) packages
@@ -28,6 +29,6 @@ script:
   # push
   - git -C _build config user.name "Travis CI"
   - git -C _build config user.email "otamachan@gmail.com"
-  - git -C _build add --all indigo
+  - git -C _build add --all .
   - git -C _build commit --quiet -m "Deploy to GitHub Pages"
-  - git -C _build push --force --quiet "https://${GH_TOKEN}@${REPO}" > /dev/null 2>&1
+  - git -C _build push --force --quiet "https://${GH_TOKEN}@${REPO}" master:gh-pages> /dev/null 2>&1
