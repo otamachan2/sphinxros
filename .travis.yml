@@ -16,7 +16,7 @@ services:
   - docker
 before_install:
   - mkdir -p doc/packages ${DEBS_PATH}
-  - docker run -v `pwd`:/workspace -e "ROSDISTRO=${ROSDISTRO}" ros:${ROSDISTRO}-ros-core /workspace/scripts/get_debs.sh ${DEBS_PATH}
+  - docker run -v `pwd`:/workspace -e "ROSDISTRO=${ROSDISTRO}" ros:${ROSDISTRO}-ros-core /workspace/scripts/get_debs.sh /workspace/${DEBS_PATH}
 install:
   - pip install -r requirements.txt
   - pip install git+https://github.com/otamachan2/sphinxcontrib-ros.git
