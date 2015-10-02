@@ -1,0 +1,9 @@
+social_navigation_layers
+++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: social_navigation_layers

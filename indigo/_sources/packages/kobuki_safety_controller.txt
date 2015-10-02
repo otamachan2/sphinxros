@@ -1,0 +1,9 @@
+kobuki_safety_controller
+++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: kobuki_safety_controller

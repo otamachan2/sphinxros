@@ -1,0 +1,9 @@
+ecl_exceptions
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ecl_exceptions

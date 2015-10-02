@@ -1,0 +1,9 @@
+spur_controller
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: spur_controller

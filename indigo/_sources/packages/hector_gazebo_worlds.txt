@@ -1,0 +1,9 @@
+hector_gazebo_worlds
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_gazebo_worlds

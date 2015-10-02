@@ -1,0 +1,9 @@
+tiago_gazebo
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: tiago_gazebo

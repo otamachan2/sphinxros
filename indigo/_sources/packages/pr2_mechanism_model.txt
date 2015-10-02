@@ -1,0 +1,9 @@
+pr2_mechanism_model
++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: pr2_mechanism_model

@@ -1,0 +1,9 @@
+care_o_bot_simulation
++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: care_o_bot_simulation

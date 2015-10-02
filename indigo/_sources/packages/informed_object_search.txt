@@ -1,0 +1,9 @@
+informed_object_search
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: informed_object_search

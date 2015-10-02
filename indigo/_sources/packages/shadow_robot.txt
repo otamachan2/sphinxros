@@ -1,0 +1,9 @@
+shadow_robot
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: shadow_robot

@@ -1,0 +1,9 @@
+hector_imu_attitude_to_tf
++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_imu_attitude_to_tf

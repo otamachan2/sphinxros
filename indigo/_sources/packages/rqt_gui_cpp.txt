@@ -1,0 +1,9 @@
+rqt_gui_cpp
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rqt_gui_cpp

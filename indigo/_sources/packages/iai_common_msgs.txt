@@ -1,0 +1,9 @@
+iai_common_msgs
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: iai_common_msgs

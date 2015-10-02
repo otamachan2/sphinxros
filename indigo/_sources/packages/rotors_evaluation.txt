@@ -1,0 +1,9 @@
+rotors_evaluation
++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rotors_evaluation

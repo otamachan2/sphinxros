@@ -1,0 +1,40 @@
+jsk_footstep_controller
++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: jsk_footstep_controller
+
+Types
+*****
+
+Message types
+#############
+
+* :ros:msg:`jsk_footstep_controller/GroundContactState`
+
+.. ros:automessage:: jsk_footstep_controller/GroundContactState
+   :raw: tail
+
+Service types
+#############
+
+* :ros:srv:`jsk_footstep_controller/RequireMonitorStatus`
+* :ros:srv:`jsk_footstep_controller/RequireLog`
+
+.. ros:autoservice:: jsk_footstep_controller/RequireMonitorStatus
+   :raw: tail
+
+.. ros:autoservice:: jsk_footstep_controller/RequireLog
+   :raw: tail
+
+Action types
+############
+
+* :ros:action:`jsk_footstep_controller/LookAroundGround`
+
+.. ros:autoaction:: jsk_footstep_controller/LookAroundGround
+   :raw: tail

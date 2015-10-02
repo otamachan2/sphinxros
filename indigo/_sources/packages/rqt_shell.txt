@@ -1,0 +1,9 @@
+rqt_shell
++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rqt_shell

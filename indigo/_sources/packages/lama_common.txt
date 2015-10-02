@@ -1,0 +1,9 @@
+lama_common
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: lama_common

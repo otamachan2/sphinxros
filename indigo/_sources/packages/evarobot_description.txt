@@ -1,0 +1,9 @@
+evarobot_description
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: evarobot_description

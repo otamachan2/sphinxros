@@ -1,0 +1,9 @@
+rosserial_client
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosserial_client

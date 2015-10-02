@@ -1,0 +1,9 @@
+ocean_battery_driver
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ocean_battery_driver

@@ -1,0 +1,9 @@
+aruco_ros
++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: aruco_ros

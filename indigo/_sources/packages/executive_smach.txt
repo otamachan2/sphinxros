@@ -1,0 +1,9 @@
+executive_smach
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: executive_smach

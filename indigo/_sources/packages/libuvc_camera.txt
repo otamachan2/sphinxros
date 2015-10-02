@@ -1,0 +1,9 @@
+libuvc_camera
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: libuvc_camera

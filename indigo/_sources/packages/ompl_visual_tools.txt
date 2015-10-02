@@ -1,0 +1,9 @@
+ompl_visual_tools
++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ompl_visual_tools

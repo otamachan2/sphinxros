@@ -1,0 +1,9 @@
+metaruby
+++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: metaruby

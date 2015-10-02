@@ -1,0 +1,9 @@
+ecto_image_pipeline
++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ecto_image_pipeline

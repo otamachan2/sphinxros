@@ -1,0 +1,9 @@
+gripper_action_controller
++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: gripper_action_controller

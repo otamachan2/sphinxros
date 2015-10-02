@@ -1,0 +1,9 @@
+imu_pipeline
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: imu_pipeline

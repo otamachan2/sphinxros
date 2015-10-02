@@ -1,0 +1,24 @@
+interaction_cursor_msgs
++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: interaction_cursor_msgs
+
+Types
+*****
+
+Message types
+#############
+
+* :ros:msg:`interaction_cursor_msgs/InteractionCursorFeedback`
+* :ros:msg:`interaction_cursor_msgs/InteractionCursorUpdate`
+
+.. ros:automessage:: interaction_cursor_msgs/InteractionCursorFeedback
+   :raw: tail
+
+.. ros:automessage:: interaction_cursor_msgs/InteractionCursorUpdate
+   :raw: tail

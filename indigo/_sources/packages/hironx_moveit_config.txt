@@ -1,0 +1,9 @@
+hironx_moveit_config
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hironx_moveit_config

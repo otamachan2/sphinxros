@@ -1,0 +1,9 @@
+soem_master
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: soem_master

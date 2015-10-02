@@ -1,0 +1,9 @@
+romeo_dcm_control
++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: romeo_dcm_control

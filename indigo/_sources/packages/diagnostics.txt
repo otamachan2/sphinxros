@@ -1,0 +1,9 @@
+diagnostics
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: diagnostics

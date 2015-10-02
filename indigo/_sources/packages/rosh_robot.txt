@@ -1,0 +1,9 @@
+rosh_robot
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosh_robot

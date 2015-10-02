@@ -1,0 +1,9 @@
+stdr_samples
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: stdr_samples

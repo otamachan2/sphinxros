@@ -1,0 +1,9 @@
+kobuki_dashboard
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: kobuki_dashboard

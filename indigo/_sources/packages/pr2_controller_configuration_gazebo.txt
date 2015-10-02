@@ -1,0 +1,9 @@
+pr2_controller_configuration_gazebo
++++++++++++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: pr2_controller_configuration_gazebo

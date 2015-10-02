@@ -1,0 +1,9 @@
+rosjava_extras
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosjava_extras

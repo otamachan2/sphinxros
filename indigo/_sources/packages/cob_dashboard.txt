@@ -1,0 +1,9 @@
+cob_dashboard
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_dashboard

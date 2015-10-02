@@ -1,0 +1,9 @@
+rviz
+++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rviz

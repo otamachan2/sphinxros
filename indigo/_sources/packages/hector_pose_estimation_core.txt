@@ -1,0 +1,9 @@
+hector_pose_estimation_core
++++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_pose_estimation_core

@@ -1,0 +1,9 @@
+mrpt_local_obstacles
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: mrpt_local_obstacles

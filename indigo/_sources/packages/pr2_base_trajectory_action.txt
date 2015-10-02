@@ -1,0 +1,9 @@
+pr2_base_trajectory_action
+++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: pr2_base_trajectory_action

@@ -1,0 +1,9 @@
+rosmsg
+++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosmsg

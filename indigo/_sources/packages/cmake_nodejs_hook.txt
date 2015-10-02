@@ -1,0 +1,9 @@
+cmake_nodejs_hook
++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cmake_nodejs_hook

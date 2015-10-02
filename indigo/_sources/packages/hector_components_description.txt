@@ -1,0 +1,9 @@
+hector_components_description
++++++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_components_description

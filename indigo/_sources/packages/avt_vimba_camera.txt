@@ -1,0 +1,9 @@
+avt_vimba_camera
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: avt_vimba_camera

@@ -1,0 +1,9 @@
+libnabo
++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: libnabo

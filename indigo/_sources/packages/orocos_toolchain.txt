@@ -1,0 +1,9 @@
+orocos_toolchain
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: orocos_toolchain

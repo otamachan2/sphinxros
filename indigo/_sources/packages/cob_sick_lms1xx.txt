@@ -1,0 +1,9 @@
+cob_sick_lms1xx
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_sick_lms1xx

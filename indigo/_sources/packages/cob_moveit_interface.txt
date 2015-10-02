@@ -1,0 +1,9 @@
+cob_moveit_interface
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_moveit_interface

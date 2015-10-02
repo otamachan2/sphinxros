@@ -1,0 +1,9 @@
+opencv_candidate
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: opencv_candidate

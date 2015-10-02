@@ -1,0 +1,9 @@
+libvimba
+++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: libvimba

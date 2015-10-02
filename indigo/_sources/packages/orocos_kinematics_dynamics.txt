@@ -1,0 +1,9 @@
+orocos_kinematics_dynamics
+++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: orocos_kinematics_dynamics

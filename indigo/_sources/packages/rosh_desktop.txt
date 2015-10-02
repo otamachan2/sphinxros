@@ -1,0 +1,9 @@
+rosh_desktop
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosh_desktop

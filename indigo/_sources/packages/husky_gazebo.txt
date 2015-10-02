@@ -1,0 +1,9 @@
+husky_gazebo
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: husky_gazebo

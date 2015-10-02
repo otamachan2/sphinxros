@@ -1,0 +1,9 @@
+gazebo_plugins
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: gazebo_plugins

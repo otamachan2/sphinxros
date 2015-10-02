@@ -1,0 +1,24 @@
+camera1394
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: camera1394
+
+Types
+*****
+
+Service types
+#############
+
+* :ros:srv:`camera1394/GetCameraRegisters`
+* :ros:srv:`camera1394/SetCameraRegisters`
+
+.. ros:autoservice:: camera1394/GetCameraRegisters
+   :raw: tail
+
+.. ros:autoservice:: camera1394/SetCameraRegisters
+   :raw: tail

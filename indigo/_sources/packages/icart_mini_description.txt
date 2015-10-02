@@ -1,0 +1,9 @@
+icart_mini_description
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: icart_mini_description

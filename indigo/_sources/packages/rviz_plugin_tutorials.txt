@@ -1,0 +1,9 @@
+rviz_plugin_tutorials
++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rviz_plugin_tutorials

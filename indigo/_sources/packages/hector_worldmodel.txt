@@ -1,0 +1,9 @@
+hector_worldmodel
++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_worldmodel

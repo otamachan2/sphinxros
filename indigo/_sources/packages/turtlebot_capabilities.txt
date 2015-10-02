@@ -1,0 +1,9 @@
+turtlebot_capabilities
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: turtlebot_capabilities

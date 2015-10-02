@@ -1,0 +1,9 @@
+mrpt_map
+++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: mrpt_map

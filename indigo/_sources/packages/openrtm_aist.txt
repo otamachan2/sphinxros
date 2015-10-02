@@ -1,0 +1,9 @@
+openrtm_aist
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: openrtm_aist

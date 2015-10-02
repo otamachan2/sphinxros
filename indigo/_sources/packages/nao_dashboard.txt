@@ -1,0 +1,9 @@
+nao_dashboard
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: nao_dashboard

@@ -1,0 +1,9 @@
+leg_detector
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: leg_detector

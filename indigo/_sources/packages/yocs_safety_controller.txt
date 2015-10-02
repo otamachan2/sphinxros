@@ -1,0 +1,9 @@
+yocs_safety_controller
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: yocs_safety_controller

@@ -1,0 +1,9 @@
+sr_standalone
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: sr_standalone

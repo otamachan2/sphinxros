@@ -1,0 +1,9 @@
+turtlebot_dashboard
++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: turtlebot_dashboard

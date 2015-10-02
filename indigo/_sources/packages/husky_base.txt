@@ -1,0 +1,9 @@
+husky_base
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: husky_base

@@ -1,0 +1,9 @@
+urdf_parser_plugin
+++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: urdf_parser_plugin

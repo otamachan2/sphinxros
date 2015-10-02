@@ -1,0 +1,9 @@
+pr2_dashboard_aggregator
+++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: pr2_dashboard_aggregator

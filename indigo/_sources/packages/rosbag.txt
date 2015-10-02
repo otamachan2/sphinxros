@@ -1,0 +1,9 @@
+rosbag
+++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosbag

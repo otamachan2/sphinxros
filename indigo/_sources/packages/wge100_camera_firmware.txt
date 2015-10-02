@@ -1,0 +1,9 @@
+wge100_camera_firmware
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: wge100_camera_firmware

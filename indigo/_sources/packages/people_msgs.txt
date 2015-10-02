@@ -1,0 +1,36 @@
+people_msgs
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: people_msgs
+
+Types
+*****
+
+Message types
+#############
+
+* :ros:msg:`people_msgs/PositionMeasurementArray`
+* :ros:msg:`people_msgs/People`
+* :ros:msg:`people_msgs/PersonStamped`
+* :ros:msg:`people_msgs/PositionMeasurement`
+* :ros:msg:`people_msgs/Person`
+
+.. ros:automessage:: people_msgs/PositionMeasurementArray
+   :raw: tail
+
+.. ros:automessage:: people_msgs/People
+   :raw: tail
+
+.. ros:automessage:: people_msgs/PersonStamped
+   :raw: tail
+
+.. ros:automessage:: people_msgs/PositionMeasurement
+   :raw: tail
+
+.. ros:automessage:: people_msgs/Person
+   :raw: tail

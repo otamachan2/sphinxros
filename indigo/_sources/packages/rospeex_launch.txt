@@ -1,0 +1,9 @@
+rospeex_launch
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rospeex_launch

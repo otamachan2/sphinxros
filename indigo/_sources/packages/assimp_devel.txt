@@ -1,0 +1,9 @@
+assimp_devel
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: assimp_devel

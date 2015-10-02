@@ -1,0 +1,9 @@
+robot_model
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: robot_model

@@ -1,0 +1,9 @@
+hector_slam
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_slam

@@ -1,0 +1,9 @@
+uwsim_bullet
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: uwsim_bullet

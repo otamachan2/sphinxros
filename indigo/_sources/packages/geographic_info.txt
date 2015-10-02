@@ -1,0 +1,9 @@
+geographic_info
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: geographic_info

@@ -1,0 +1,9 @@
+phidgets_api
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: phidgets_api

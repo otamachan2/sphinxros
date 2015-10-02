@@ -1,0 +1,9 @@
+rviz_imu_plugin
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rviz_imu_plugin

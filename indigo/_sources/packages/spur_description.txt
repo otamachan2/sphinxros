@@ -1,0 +1,9 @@
+spur_description
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: spur_description

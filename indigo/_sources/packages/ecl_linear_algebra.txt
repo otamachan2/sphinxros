@@ -1,0 +1,9 @@
+ecl_linear_algebra
+++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ecl_linear_algebra

@@ -1,0 +1,9 @@
+cob_common
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_common

@@ -1,0 +1,9 @@
+moveit_core
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: moveit_core

@@ -1,0 +1,9 @@
+manifest_cleaner
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: manifest_cleaner

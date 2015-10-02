@@ -1,0 +1,9 @@
+mico_description
+++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: mico_description

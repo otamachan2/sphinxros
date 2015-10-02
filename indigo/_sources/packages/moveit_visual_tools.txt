@@ -1,0 +1,9 @@
+moveit_visual_tools
++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: moveit_visual_tools

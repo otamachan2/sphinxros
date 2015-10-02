@@ -1,0 +1,9 @@
+move_base
++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: move_base

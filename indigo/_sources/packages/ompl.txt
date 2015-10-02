@@ -1,0 +1,9 @@
+ompl
+++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ompl

@@ -1,0 +1,9 @@
+sophus
+++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: sophus

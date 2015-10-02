@@ -1,0 +1,9 @@
+libfreenect
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: libfreenect

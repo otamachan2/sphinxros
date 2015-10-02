@@ -1,0 +1,9 @@
+kobuki_ftdi
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: kobuki_ftdi

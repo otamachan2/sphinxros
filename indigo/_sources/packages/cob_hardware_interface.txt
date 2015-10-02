@@ -1,0 +1,9 @@
+cob_hardware_interface
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_hardware_interface

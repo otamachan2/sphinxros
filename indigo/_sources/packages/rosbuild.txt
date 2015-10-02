@@ -1,0 +1,9 @@
+rosbuild
+++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosbuild

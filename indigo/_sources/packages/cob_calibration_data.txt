@@ -1,0 +1,9 @@
+cob_calibration_data
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_calibration_data

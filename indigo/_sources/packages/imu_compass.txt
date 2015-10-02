@@ -1,0 +1,9 @@
+imu_compass
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: imu_compass

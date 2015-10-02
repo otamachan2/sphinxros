@@ -1,0 +1,9 @@
+turtlebot_description
++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: turtlebot_description

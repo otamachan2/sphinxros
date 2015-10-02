@@ -1,0 +1,9 @@
+rqt_bag
++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rqt_bag

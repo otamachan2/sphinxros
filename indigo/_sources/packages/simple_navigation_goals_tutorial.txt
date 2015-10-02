@@ -1,0 +1,9 @@
+simple_navigation_goals_tutorial
+++++++++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: simple_navigation_goals_tutorial

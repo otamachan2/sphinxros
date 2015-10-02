@@ -1,0 +1,9 @@
+naoqi_pose
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: naoqi_pose

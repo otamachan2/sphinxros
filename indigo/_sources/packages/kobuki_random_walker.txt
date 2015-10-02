@@ -1,0 +1,9 @@
+kobuki_random_walker
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: kobuki_random_walker

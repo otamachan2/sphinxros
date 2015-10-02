@@ -1,0 +1,9 @@
+mrpt_navigation
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: mrpt_navigation

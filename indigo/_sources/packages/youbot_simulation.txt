@@ -1,0 +1,9 @@
+youbot_simulation
++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: youbot_simulation

@@ -1,0 +1,9 @@
+rocon_gateway
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rocon_gateway

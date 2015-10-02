@@ -1,0 +1,9 @@
+trivial_garbage
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: trivial_garbage

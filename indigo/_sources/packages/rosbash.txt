@@ -1,0 +1,9 @@
+rosbash
++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosbash

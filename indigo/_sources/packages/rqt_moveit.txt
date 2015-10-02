@@ -1,0 +1,9 @@
+rqt_moveit
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rqt_moveit

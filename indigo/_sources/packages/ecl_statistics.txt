@@ -1,0 +1,9 @@
+ecl_statistics
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ecl_statistics

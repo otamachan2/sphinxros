@@ -1,0 +1,9 @@
+kobuki_desktop
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: kobuki_desktop

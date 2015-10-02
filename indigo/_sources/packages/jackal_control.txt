@@ -1,0 +1,9 @@
+jackal_control
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: jackal_control

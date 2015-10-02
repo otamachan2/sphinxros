@@ -1,0 +1,9 @@
+soem
+++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: soem

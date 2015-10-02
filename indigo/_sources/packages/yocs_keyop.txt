@@ -1,0 +1,9 @@
+yocs_keyop
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: yocs_keyop

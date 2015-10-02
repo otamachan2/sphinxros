@@ -1,0 +1,9 @@
+rosbag_storage
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosbag_storage

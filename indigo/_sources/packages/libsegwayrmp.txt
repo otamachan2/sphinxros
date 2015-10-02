@@ -1,0 +1,9 @@
+libsegwayrmp
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: libsegwayrmp

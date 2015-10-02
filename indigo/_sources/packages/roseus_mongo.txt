@@ -1,0 +1,9 @@
+roseus_mongo
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: roseus_mongo

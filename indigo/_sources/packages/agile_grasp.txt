@@ -1,0 +1,28 @@
+agile_grasp
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: agile_grasp
+
+Types
+*****
+
+Message types
+#############
+
+* :ros:msg:`agile_grasp/Grasps`
+* :ros:msg:`agile_grasp/CloudSized`
+* :ros:msg:`agile_grasp/Grasp`
+
+.. ros:automessage:: agile_grasp/Grasps
+   :raw: tail
+
+.. ros:automessage:: agile_grasp/CloudSized
+   :raw: tail
+
+.. ros:automessage:: agile_grasp/Grasp
+   :raw: tail

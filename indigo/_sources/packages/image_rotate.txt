@@ -1,0 +1,9 @@
+image_rotate
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: image_rotate

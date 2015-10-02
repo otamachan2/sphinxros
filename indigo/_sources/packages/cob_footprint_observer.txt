@@ -1,0 +1,20 @@
+cob_footprint_observer
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_footprint_observer
+
+Types
+*****
+
+Service types
+#############
+
+* :ros:srv:`cob_footprint_observer/GetFootprint`
+
+.. ros:autoservice:: cob_footprint_observer/GetFootprint
+   :raw: tail

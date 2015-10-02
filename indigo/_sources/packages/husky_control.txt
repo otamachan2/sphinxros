@@ -1,0 +1,9 @@
+husky_control
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: husky_control

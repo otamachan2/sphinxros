@@ -1,0 +1,24 @@
+im_msgs
++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: im_msgs
+
+Types
+*****
+
+Message types
+#############
+
+* :ros:msg:`im_msgs/Bumper`
+* :ros:msg:`im_msgs/BumperState`
+
+.. ros:automessage:: im_msgs/Bumper
+   :raw: tail
+
+.. ros:automessage:: im_msgs/BumperState
+   :raw: tail

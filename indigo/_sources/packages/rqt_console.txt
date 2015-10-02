@@ -1,0 +1,9 @@
+rqt_console
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rqt_console

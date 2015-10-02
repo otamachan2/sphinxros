@@ -1,0 +1,9 @@
+stdr_launchers
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: stdr_launchers

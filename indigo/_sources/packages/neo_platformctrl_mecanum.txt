@@ -1,0 +1,9 @@
+neo_platformctrl_mecanum
+++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: neo_platformctrl_mecanum

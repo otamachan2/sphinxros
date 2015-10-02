@@ -1,0 +1,9 @@
+xsens_driver
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: xsens_driver

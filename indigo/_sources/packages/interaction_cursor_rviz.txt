@@ -1,0 +1,9 @@
+interaction_cursor_rviz
++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: interaction_cursor_rviz

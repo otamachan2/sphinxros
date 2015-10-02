@@ -1,0 +1,9 @@
+pocketsphinx
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: pocketsphinx

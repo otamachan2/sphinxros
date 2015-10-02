@@ -1,0 +1,9 @@
+phidgets_ir
++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: phidgets_ir

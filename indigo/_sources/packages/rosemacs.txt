@@ -1,0 +1,9 @@
+rosemacs
+++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosemacs

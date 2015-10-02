@@ -1,0 +1,9 @@
+joint_trajectory_controller
++++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: joint_trajectory_controller

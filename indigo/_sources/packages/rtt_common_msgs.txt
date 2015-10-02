@@ -1,0 +1,9 @@
+rtt_common_msgs
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rtt_common_msgs

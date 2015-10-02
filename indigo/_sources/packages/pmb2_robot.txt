@@ -1,0 +1,9 @@
+pmb2_robot
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: pmb2_robot

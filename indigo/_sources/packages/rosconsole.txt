@@ -1,0 +1,9 @@
+rosconsole
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosconsole

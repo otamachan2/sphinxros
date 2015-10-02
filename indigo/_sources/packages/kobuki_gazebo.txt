@@ -1,0 +1,9 @@
+kobuki_gazebo
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: kobuki_gazebo

@@ -1,0 +1,9 @@
+rosclean
+++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosclean

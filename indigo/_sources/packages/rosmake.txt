@@ -1,0 +1,9 @@
+rosmake
++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rosmake

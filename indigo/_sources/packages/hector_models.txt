@@ -1,0 +1,9 @@
+hector_models
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_models

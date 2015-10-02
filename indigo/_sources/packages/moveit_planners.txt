@@ -1,0 +1,9 @@
+moveit_planners
++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: moveit_planners

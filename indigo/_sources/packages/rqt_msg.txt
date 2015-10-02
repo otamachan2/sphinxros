@@ -1,0 +1,9 @@
+rqt_msg
++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rqt_msg

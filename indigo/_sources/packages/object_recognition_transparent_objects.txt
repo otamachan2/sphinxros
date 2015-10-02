@@ -1,0 +1,9 @@
+object_recognition_transparent_objects
+++++++++++++++++++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: object_recognition_transparent_objects

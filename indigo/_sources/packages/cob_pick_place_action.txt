@@ -1,0 +1,24 @@
+cob_pick_place_action
++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: cob_pick_place_action
+
+Types
+*****
+
+Action types
+############
+
+* :ros:action:`cob_pick_place_action/CobPick`
+* :ros:action:`cob_pick_place_action/CobPlace`
+
+.. ros:autoaction:: cob_pick_place_action/CobPick
+   :raw: tail
+
+.. ros:autoaction:: cob_pick_place_action/CobPlace
+   :raw: tail

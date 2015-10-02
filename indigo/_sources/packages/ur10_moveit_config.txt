@@ -1,0 +1,9 @@
+ur10_moveit_config
+++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: ur10_moveit_config

@@ -1,0 +1,9 @@
+libuvc_ros
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: libuvc_ros

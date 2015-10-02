@@ -1,0 +1,9 @@
+hector_xacro_tools
+++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: hector_xacro_tools

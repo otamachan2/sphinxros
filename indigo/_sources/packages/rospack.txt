@@ -1,0 +1,9 @@
+rospack
++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rospack

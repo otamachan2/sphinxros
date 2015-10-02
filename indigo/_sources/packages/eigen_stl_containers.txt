@@ -1,0 +1,9 @@
+eigen_stl_containers
+++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: eigen_stl_containers

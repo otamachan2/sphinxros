@@ -1,0 +1,9 @@
+pr2_simulator
++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: pr2_simulator

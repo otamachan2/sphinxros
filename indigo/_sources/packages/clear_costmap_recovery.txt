@@ -1,0 +1,9 @@
+clear_costmap_recovery
+++++++++++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: clear_costmap_recovery

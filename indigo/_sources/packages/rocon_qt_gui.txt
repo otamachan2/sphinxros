@@ -1,0 +1,9 @@
+rocon_qt_gui
+++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: rocon_qt_gui

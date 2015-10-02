@@ -1,0 +1,9 @@
+stdr_robot
+++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: stdr_robot

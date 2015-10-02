@@ -1,0 +1,9 @@
+laser_pipeline
+++++++++++++++
+
+.. contents:: Contents:
+   :local:
+
+Summary
+*******
+.. ros:autopackage:: laser_pipeline
